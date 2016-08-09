@@ -1,0 +1,19 @@
+﻿<package>
+  <metadata>
+    <id>Should.Extensions.RestSharp</id>
+    <version>1.0.0.0</version>
+    <authors>Miguel A. Gonzalez</authors>
+    <description>Several useful extensions to the Should Assertion Library for testing RestSharp results. Like the Should extensions themselves, these extensions provide assertions only, and therefore are also test runner agnostic.</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/magonzalez/Should.Extensions.RestSharp/blob/master/README.markdown</projectUrl>
+    <licenseUrl>https://github.com/magonzalez/Should.Extensions.RestSharp/blob/master/license.txt</licenseUrl>
+    <dependencies>
+      <dependency id="Should" version="1.0.0" />
+      <dependency id="RestSharp" version="105.2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+	  <file src="build\output\Should.Extensions.RestSharp.dll" target="lib/net40" />
+    <file src="build\output\Should.Extensions.RestSharp.pdb" target="lib/net40" />
+  </files>
+</package>

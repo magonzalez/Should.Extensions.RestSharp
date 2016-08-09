@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Should.Extensions.RestSharp", "Should.Extensions.RestSharp\Should.Extensions.RestSharp.csproj", "{2185E78F-6E98-463E-9651-28BFB87DC5A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Should.Extensions.RestSharp.UnitTests", "Should.Extensions.RestSharp.UnitTests\Should.Extensions.RestSharp.UnitTests.csproj", "{4D29AFCC-6404-41C0-9360-27EE0B39D136}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{3BD5C62F-77D5-498F-8436-CF3339124E40}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\build.bat = ..\build.bat
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		..\default.ps1 = ..\default.ps1
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2185E78F-6E98-463E-9651-28BFB87DC5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2185E78F-6E98-463E-9651-28BFB87DC5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2185E78F-6E98-463E-9651-28BFB87DC5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2185E78F-6E98-463E-9651-28BFB87DC5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D29AFCC-6404-41C0-9360-27EE0B39D136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D29AFCC-6404-41C0-9360-27EE0B39D136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D29AFCC-6404-41C0-9360-27EE0B39D136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D29AFCC-6404-41C0-9360-27EE0B39D136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

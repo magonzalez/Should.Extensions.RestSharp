@@ -1,0 +1,2 @@
+This folder is for tools and resources that are required for a successful build, but are NOT deployed with the application.
+For instance, NUnit is used by the CI Build to run all unit tests, but should not be deployed to the web host.
